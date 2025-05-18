@@ -1,8 +1,8 @@
 {
   "databricks_api_token": "YOUR_DATABRICKS_TOKEN",
   "databricks_workspace_url": "https://your-workspace.cloud.databricks.com",
-  "github_token": "YOUR_GITHUB_TOKEN",
-  "repo_name": "your-github-username/databricks-job-optimizer",
+  "github_token": "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",
+  "repo_name": "saikittu332/dbxjoboptimize",
   "cost_settings": {
     "worker_node_hourly_rate": 0.5,
     "driver_node_hourly_rate": 0.7
