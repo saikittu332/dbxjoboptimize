@@ -1,1 +1,16 @@
-
+{
+  "databricks_api_token": "YOUR_DATABRICKS_TOKEN",
+  "databricks_workspace_url": "https://your-workspace.cloud.databricks.com",
+  "github_token": "YOUR_GITHUB_TOKEN",
+  "repo_name": "your-github-username/databricks-job-optimizer",
+  "cost_settings": {
+    "worker_node_hourly_rate": 0.5,
+    "driver_node_hourly_rate": 0.7
+  },
+  "optimization_thresholds": {
+    "runtime_minutes_high": 40,
+    "runtime_minutes_medium": 20,
+    "worker_count_increment": 2,
+    "cost_reduction_target_percent": 15
+  }
+}
