@@ -1,1 +1,15 @@
+# Core dependencies
+pandas==2.1.0
+matplotlib==3.8.0
+numpy==1.25.2
+PyGithub==1.59.1
+requests==2.31.0
 
+# PySpark dependencies (optional if using Databricks)
+pyspark==3.4.1
+
+# For visualization
+seaborn==0.12.2
+
+# Utility libraries
+python-dotenv==1.0.0
